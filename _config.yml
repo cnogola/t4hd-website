@@ -1,5 +1,8 @@
 name: My Creative Website
 
+# Handling reading
+exclude: ["gulpfile.js", "package-lock.json", "package.json"]
+
 collections:
   collections_dir: my_collections
   portfolio:
