@@ -58,7 +58,7 @@ layout: home
   <section id="portfolio">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
-        {% for item in site.portfolio %}
+        {% for item in site.my_collections.portfolio %}
         <div class="col-lg-4 col-sm-6">
           <a class="portfolio-box" href="{{ item.image_path }}">
             <img class="img-fluid" src="{{ item.thumbnail_path }}" alt="">
