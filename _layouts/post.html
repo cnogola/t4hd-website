@@ -1,6 +1,5 @@
 ---
-layout: default
-permalink: /my_collections/
+layout: page
 ---
   <!-- Page Content -->
   <div class="container">
@@ -14,20 +13,22 @@ permalink: /my_collections/
         <h1 class="mt-4">{{ post.title }}</h1>
 
         <!-- Author -->
-        <p class="lead">
-          by
-          <a href="#">{{ post.author }}</a>
-        </p>
+		<div class="card-footer text-muted">
+			<p class="lead">
+			  by
+			  <a href="{{ author.url }}">{{ post.author }}</a>
+			</p>
 
-        <hr>
+			<hr>
 
-        <!-- Date/Time -->
-        <p>Posted on January 1, 2019 at 12:00 PM</p>
+			<!-- Date/Time -->
+			<p>Posted on {{ post.date | date: "%d %B %Y" }}</p>
 
-        <hr>
+			<hr>
+		</div>
 
         <!-- Preview Image -->
-        <img class="img-fluid rounded" src="{{ post.image_path }}" alt="">
+        <img class="card-img-top" src="{{ post.image_path }}" alt="Card image cap">
 
         <hr>
 
