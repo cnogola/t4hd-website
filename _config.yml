@@ -1,0 +1,9 @@
+name: My Creative Website
+
+collections:
+  collections_dir: my_collections
+  portfolio:
+
+sass:
+  sass_dir: _sass
+  style: nested
