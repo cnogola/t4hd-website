@@ -3,9 +3,9 @@ name: My Creative Website
 # Handling reading
 exclude: ["gulpfile.js", "package-lock.json", "package.json","Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
 
+collections_dir: my_collections
 collections:
-  collections_dir: my_collections
-  portfolio:
+  - portfolio
 
 # CloudCannon
 _explore:
@@ -19,7 +19,7 @@ _explore:
         - pages
     - heading: Data
       collections:
-        - collections
+        - portfolio
 
 # Vendor specific
 sass:
