@@ -1,6 +1,6 @@
 ---
 title: My Third Blog Post
-description: Start Bootstrap has...
+description: Read latest news about T4HD
 image_path: /img/portfolio/fullsize/2.jpg
 excerpt_separator: <!--more-->
 ---

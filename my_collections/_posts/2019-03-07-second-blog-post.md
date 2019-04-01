@@ -1,5 +1,6 @@
 ---
 title: My Second Blog Post
+description: Read latest news about T4HD
 image_path: /img/portfolio/fullsize/1.jpg
 excerpt_separator: <!--more-->
 ---
