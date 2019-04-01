@@ -1,10 +1,11 @@
 ---
-layout: post
 title: My Third Blog Post
-author: Gonçalo
+description: Start Bootstrap has...
+image_path: /img/portfolio/fullsize/2.jpg
+excerpt_separator: <!--more-->
 ---
 You'll find this post in your `_posts` directory. Go ahead and edit it and re-build
-the site to see your changes. You can rebuild the site in many different ways, but
+the site to see your changes.<!--more--> You can rebuild the site in many different ways, but
 the most common way is to run `jekyll serve`, which launches a web server and
 auto-regenerates your site when a file is updated.
 
