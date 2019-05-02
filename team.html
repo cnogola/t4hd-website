@@ -1,0 +1,21 @@
+---
+title: Team
+description: T4HD is a Social Enterprise focusing on providing support for existing and new organizations that share the same common goals.
+---
+<!-- Team Section -->
+<section class="page-section" id="team">
+  <div class="container">
+    <div class="row justify-content-center">
+      {% for author in site.authors %}
+      <div class="col-lg-3 col-md-6 text-center">
+        <div class="mt-5">
+          <img class="img-fluid" src="{{ author.image_path }}" alt="">
+          <h3 class="h4 mb-2">{{ author.name }}</h3>
+          <p class="text-muted mb-0">{{ author.description }}</p>
+          <p class="text-muted mb-0"><a class="d-block" href="mailto:{{ author.email }}">{{ author.email }}</a></p>  
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
